@@ -38,7 +38,7 @@ ffi/
 
 ---
 
-## 🏃 Scripts
+## 👨🏾‍💻 Scripts
 
 ### 1. Build libraries
 
