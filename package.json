@@ -1,0 +1,19 @@
+{
+  "name": "ffi",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "c": "bun run src/main_c.ts",
+    "go": "bun run src/main_go.ts",
+    "ts": "bun run src/main_ts.ts",
+    "build:c": "gcc -shared -o ./bin/c_libprime.so -fPIC ./src/c/prime.c" ,
+    "build:go": "go build -buildmode=c-shared -o ./bin/go_libprime.so ./src/golang/prime.go"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
