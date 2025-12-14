@@ -67,6 +67,6 @@ For larger tasks or loops, C and Go shine.
 | TypeScript | `isPrime(n: number)`                            | Check a single number                |
 | TypeScript | `countPrimes(start, end)`                       | Count primes in a range              |
 | C          | `is_prime(n int64) -> int8`                     | Check a single number via FFI        |
-| C          | `count_primes(start int64, end int64) -> int64` | Count primes in a range via FFI |
+| C          | `count_primes(start int64, end int64) -> int64` | Count primes in a range via FFI      |
 | Go         | `IsPrime(n int64) -> int32`                     | Check a single number via FFI        |
 | Go         | `CountPrimes(start, end int64) -> int64`        | Count primes in a range via FFI      |
