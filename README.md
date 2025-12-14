@@ -8,6 +8,7 @@ The goal is to **check if a number is prime** and **count primes in a range**, w
 
 ## 📦 Project Structure
 
+```bash
 ffi/
 ├─ src/
 │ ├─ c/
