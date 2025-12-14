@@ -21,7 +21,7 @@ const startTime = performance.now()
 const number = 999999937
 
 console.log(`is_prime(${number}): `,lib.symbols.is_prime(number) )
-console.log("count_primes(${start}, ${end}):", lib.symbols.count_primes(start, end))
+console.log(`count_primes(${start}, ${end}):`, lib.symbols.count_primes(start, end))
 
 const endTime = performance.now()
 
