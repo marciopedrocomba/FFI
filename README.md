@@ -15,6 +15,8 @@ ffi/
 │ │ └─ prime.c # Functions is_prime and count_primes in C
 │ ├─ golang/
 │ │ └─ prime.go # Functions IsPrime and CountPrimes in Go
+│ ├─ ts/
+│ │ └─ prime.ts # Functions isPrime and countPrimes in Typescript
 │ ├─ main_c.ts # Bun script that runs C functions via FFI
 │ ├─ main_go.ts # Bun script that runs Go functions via FFI
 │ └─ main_ts.ts # Bun script that runs TypeScript functions
