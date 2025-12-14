@@ -23,6 +23,7 @@ ffi/
 │ └─ go_libprime.so # Compiled Go library
 ├─ package.json
 └─ tsconfig.json
+```
 
 ---
 
